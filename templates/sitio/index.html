@@ -1,11 +1,18 @@
-<title>Home</title>
-{% include "sitio/cabecera.html" %}
-<main class="home-main">
-  <div>
-    <h2>Noticias</h2>
-  </div>
-  <div>
-    <h2>Informacion</h2>
-  </div>
-</main>
-{% include "sitio/pie.html" %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <% include("sitio/cabecera.html") %>
+  </head>
+  <body>
+    <main class="home-main">
+      <div>
+        <h2>Noticias</h2>
+      </div>
+      <div>
+        <h2>Informacion</h2>
+      </div>
+    </main>
+    <% include("sitio/pie.html") %>
+  </body>
+</html>
